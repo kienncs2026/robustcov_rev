@@ -1,0 +1,7 @@
+{
+  "source_root": "outputs_cp6_v3",
+  "source_run": "outputs_cp6_v3/sweep_S5A/runs/S5A_fixed_hover_s5a_y180_seed2026_topo0__cfgd94560883a8c",
+  "config_fingerprint": "d94560883a8c22709c1f11ef3e745a02bc817ef92e05a75e3a004fb894cd69bd",
+  "classification_at_import": "FEASIBLE",
+  "policy": "Only fingerprint-matched resolved runs are reused; unresolved numerical runs are recomputed."
+}

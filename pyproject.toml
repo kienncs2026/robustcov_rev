@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-isac-sim"
+version = "1.0.0"
+description = "Robust trajectory, beamforming, sensing-covariance, and PCRB simulation for UAV-enabled ISAC"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "pandas>=2.0",
+  "matplotlib>=3.8",
+  "cvxpy>=1.5",
+  "scs>=3.2",
+  "psutil>=5.9",
+  "clarabel>=0.9"
+]
+
+[project.optional-dependencies]
+mosek = ["mosek>=10"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+uav-isac-rev = "uav_isac.revision_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

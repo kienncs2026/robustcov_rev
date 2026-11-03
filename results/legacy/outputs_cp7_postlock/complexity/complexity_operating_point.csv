@@ -1,0 +1,2 @@
+M,K,L,J_enforcement_points_per_target,precanonical_real_decision_dof,comm_covariance_dof,sensing_covariance_dof,sprocedure_scalar_dof,pcrb_U_dof,psd_cones_M_count,robust_lmi_Mplus1_count,pcrb_psd_2x2_count,pcrb_schur_6x6_count,pcrb_trace_constraints_count,rank_refinement_adds_variables,source_root,run_dir,scenario,scheme,topology_seed,pcrb_threshold_m2
+16,4,2,9,1338,1024,256,4,54,5,4,18,18,18,0,outputs_cp6_lock,outputs_cp6_lock/sweep_S4/runs/S4_proposed_seed2026_topo0__cfg313d389520cb,S4,proposed,0,9.0

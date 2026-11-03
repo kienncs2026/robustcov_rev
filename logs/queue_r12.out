@@ -1,0 +1,17 @@
+2026-10-31 13:54:47 START 17 runs, 14 workers: R12=11, R2=6
+2026-10-31 13:54:49 [1/17] R2:reference_powell OK wall=0.00h
+2026-10-31 13:54:49 [2/17] R2:reference_random_search OK wall=0.00h
+2026-10-31 13:54:49 [3/17] R2:displaced_random_search OK wall=0.00h
+2026-10-31 13:54:49 [4/17] R2:displaced_powell OK wall=0.00h
+2026-10-31 13:55:19 START 17 runs, 14 workers: R12=11, R2=6
+2026-10-31 13:55:20 [1/17] R2:reference_powell OK wall=0.00h
+2026-10-31 13:55:20 [2/17] R2:reference_random_search OK wall=0.00h
+2026-10-31 13:55:20 [3/17] R2:displaced_random_search OK wall=0.00h
+2026-10-31 13:55:20 [4/17] R2:displaced_powell OK wall=0.00h
+
+thread '<unnamed>' panicked at src/solver/core/cones/psdtrianglecone.rs:176:27:
+SVD error: SVD(1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+2026-10-31 14:36:40 [5/17] R12:reference_trajectory_fixed_sensing CRASH PicklingError("Can't pickle <class 'pyo3_runtime.PanicException'>: import of module 'pyo3_runtime' failed") wall=nanh
+2026-10-31 14:38:58 [6/17] R2:reference_propulsion_only OK wall=0.73h
+2026-10-31 14:44:10 [7/17] R12:reference_deterministic_joint OK wall=0.81h

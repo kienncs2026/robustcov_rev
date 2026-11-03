@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\tools\run_queue.py", line 60, in _worker
+    res = run_simulation(cfg, make_plots=False)
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\src\uav_isac\ao_solver.py", line 421, in run_simulation
+    _, _, slack_results = _timed_cov(
+                          ~~~~~~~~~~^
+        trajectory.q, trajectory.v, users, target_means, target_covariances,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        resume=(config.solver.resume_enabled and not config.solver.rerun_failed),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\src\uav_isac\ao_solver.py", line 171, in _timed_cov
+    out = solve_covariances(*args, **kwargs)
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\src\uav_isac\covariance.py", line 931, in solve_covariances
+    tmp_npz.replace(checkpoint_npz)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\trkie\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'D:\\13.github_icn\\code_paper_robustcov\\robustcov_rev\\results\\R5\\runs\\R5_R5_robust_fixed_sensing30_seed2026_topo0__cfgf0e11969ad3f\\state\\covariance_slots\\outer_000_slack.tmp.npz' -> 'D:\\13.github_icn\\code_paper_robustcov\\robustcov_rev\\results\\R5\\runs\\R5_R5_robust_fixed_sensing30_seed2026_topo0__cfgf0e11969ad3f\\state\\covariance_slots\\outer_000_slack.npz'

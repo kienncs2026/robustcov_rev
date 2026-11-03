@@ -1,0 +1,5 @@
+method_id,paper_label,mechanism_reference,robust_communication,chance_pcrb,trajectory_update,sensing_covariance,interpretation
+proposed,Proposed robust joint design,Proposed,yes,yes,yes,optimized,Full robust communication + predictive chance-PCRB + UAV mobility.
+deterministic_joint,Adapted deterministic joint design,[2]-type,no,no (mean-state enforcement),yes,optimized,Adapts the joint trajectory/communication/sensing design mechanism under nominal CSI and mean target state; not an exact reproduction of [2].
+trajectory_fixed_sensing,Adapted trajectory-localization design,[3]-type,no,no (mean-state enforcement),yes,fixed 20% sensing-power fraction,Isolates trajectory adaptation with a fixed sensing-power split; not an exact reproduction of [3].
+robust_fixed_geometry,Adapted fixed-platform robust covariance,[4]-type,yes,yes,no,optimized,Uses the robust covariance mechanism at fixed UAV geometry to emulate a fixed-platform robust beamforming comparison; not an exact reproduction of the secure-ISAC objective in [4].

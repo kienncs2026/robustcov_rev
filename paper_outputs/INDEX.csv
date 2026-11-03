@@ -1,0 +1,25 @@
+file,description,reviewer_comments,manuscript_item
+all_runs.csv,Every run (config + audit summary + solver totals),all,source data
+T2_matched_baselines.csv,"Matched-system baselines at the reference geometry, incl. robust fixed sensing power and trajectory baselines","R3.3, R1.7, Ed.5",Table II
+F2_csi_robustness.csv,"CSI sweep, robust vs deterministic",-,Fig. 2
+F3_prior_risk.csv,Prior-uncertainty / risk sweep,-,Fig. 3
+F4_rate_pcrb_and_certificates.csv,Rate-PCRB operating region and Prop. 5 certificates at eps = 4 m^2,"Ed.3, R1.2, R3.1","Fig. 4, Sec. V-C, Prop. 5"
+F5_mobility_decomposition.csv,Displaced-target mobility: propulsion vs RF saving and Cor. 1 bound,"R1.2, R2.5, R3.1","Fig. 5, Cor. 1"
+T3_local_topologies.csv,Reference and two locally perturbed topologies,-,Table III
+R1_random_topologies_summary.csv,Reliability over random topologies with Clopper-Pearson interval on the pass fraction,"R1.6, R1.9, Ed.5, R2.3",new Table (topology statistics)
+fig_R1_ucb_cdf.pdf,CDF of UCB/rho over random topologies,R1.6,new figure
+R2_trajectory_baselines.csv,"Proposed vs fixed, propulsion-only, random search, Powell","R1.7, R2.5, R3.3, Ed.3",new Table/Fig. (trajectory baselines)
+fig_trajectories_displaced.pdf,"UAV paths, displaced geometry","R1.7, R2.5",new trajectory figure
+fig_trajectories_reference.pdf,"UAV paths, reference geometry","R1.7, R2.5",new trajectory figure
+R3_solver_formulation.csv,"Solver and Schur vs linear (Prop. 2): energy, feasibility, solver time","R3.3, R2.6","new Table (solver comparison), Prop. 2 check"
+R4_rank_recovery.csv,Rank recovery bank vs Gaussian randomization,"R3.3, R3.4",Sec. IV-D / response
+R6_reliability_remedies.csv,Nine-state vs scenario (Prop. 3) vs refinement (Alg. 2) on failing cases,"Ed.4, R2.3, R3.2",new Table (reliability remedies)
+R7_tightening_lipschitz.csv,Tightening sweep with Lemma 4 margin check,R1.3,Lemma 4 discussion
+fig_R7_tightening.pdf,UCB vs tightening margin,R1.3,Lemma 4 discussion
+R8_trajectory_sensitivity.csv,Starts / segments / SLSQP iterations sensitivity,"R2.4, R1.10",Sec. IV-D / response
+R12_propulsion_first.csv,"Propulsion-first design (Cor. 2) vs submitted S9 T0, S5A and S5B designs","Ed.3, R1.2, R2.5, R3.1","Table II, Sec. V mobility (NEXT STEP)"
+R9_model_mismatch.csv,Rician channel and coordinated-turn target mismatch,R1.4,new paragraph Sec. V
+R1_9_monte_carlo_seeds.csv,Independent Monte Carlo seeds on stored designs,R1.9,response R1.9
+convergence_iterations.csv,Energy per outer iteration for every run,"Ed.2, R1.10",Prop. 6 / convergence figure
+runtime_breakdown.csv,Wall time per phase and solver time per run,"R2.6, R3.4",Sec. V complexity paragraph
+lemma_checks.csv,Numerical checks of Lemma 2 and Lemma 3 per run,"R2.2, R3.2",Sec. III-D

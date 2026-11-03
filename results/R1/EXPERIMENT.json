@@ -1,0 +1,7 @@
+{
+  "experiment": "R1",
+  "title": "Random topologies (bounded local and unrestricted)",
+  "reviewer_refs": "R1.6, R1.9, Ed.5, R2.3",
+  "notes": "Nine-state, scenario (Prop. 3) and refined (Alg. 2) designs per topology.",
+  "options": {}
+}

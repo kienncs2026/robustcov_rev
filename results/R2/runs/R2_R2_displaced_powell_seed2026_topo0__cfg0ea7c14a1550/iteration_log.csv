@@ -1,0 +1,12 @@
+outer_iteration,accepted,total_energy_j,propulsion_energy_j,rf_energy_j,trajectory_penalty,trajectory_status,restoration_status,restoration_runtime_s,restoration_candidates_tested,restoration_iterations,initial_feasibility_bound_ratio,final_feasibility_bound_ratio,feasibility_bound_pass,worst_sensing_bound_ratio,worst_communication_bound_ratio,trajectory_backtracking_factor,candidate_kinematic_ok,candidate_covariance_ok,candidate_rank_ok,candidate_psd_ok,candidate_enforcement_ok,candidate_energy_ok,candidate_rejection_reasons,candidate_displacement_m,candidate_energy_lower_bound_j,candidate_nontrivial,candidate_horizontal_speed_margin,candidate_acceleration_margin
+-1,True,,,,,F0:initial_bound_pass,initial_bound_pass,0.28590149999945424,1.0,0.0,0.06704908221981613,0.06704908221981613,True,0.06704908221981613,0.013692935975353891,,,,,,,,,,,,,
+0,True,32921.482739546336,32911.68,9.802739546333902,0.0,before_update,,,,,,,,,,,,,,,,,,,,,,
+0,True,32835.94335627744,32826.75650188955,9.186854387895464,4.345994254525251e-08,success|multistart=4,,,,,,,,,,1.0,True,True,True,True,True,True,,10.25643311464914,,True,28.676064603792206,4.647763217140364
+1,True,32835.94335627744,32826.75650188955,9.186854387895464,0.0,before_update,,,,,,,,,,,,,,,,,,,,,,
+1,True,32584.59170856965,32575.960686994524,8.631021575124874,1.1464301920620585e-07,success|multistart=4,,,,,,,,,,1.0,True,True,True,True,True,True,,10.271148890802838,,True,27.351507697994155,4.295538289177211
+2,True,32584.59170856965,32575.960686994524,8.631021575124874,0.0,before_update,,,,,,,,,,,,,,,,,,,,,,
+2,True,32181.476788871336,32173.344366783967,8.132422087366772,1.6273621438987695e-07,success|multistart=4,,,,,,,,,,1.0,True,True,True,True,True,True,,10.255774236920528,,True,26.030031109702797,3.9454995572952347
+3,True,32181.476788871336,32173.344366783967,8.132422087366772,0.0,before_update,,,,,,,,,,,,,,,,,,,,,,
+3,True,31650.030471295777,31642.34409112632,7.686380169455249,2.0305790290581318e-07,success|multistart=4,,,,,,,,,,1.0,True,True,True,True,True,True,,10.241477988853969,,True,24.703176600261372,3.5929724825388525
+4,True,31650.030471295777,31642.34409112632,7.686380169455249,0.0,before_update,,,,,,,,,,,,,,,,,,,,,,
+4,True,31023.654961215514,31016.36866889325,7.286292322262042,2.718916982198878e-07,success|multistart=4,,,,,,,,,,1.0,True,True,True,True,True,True,,10.239040252108436,,True,23.380005535912364,3.239754146873768

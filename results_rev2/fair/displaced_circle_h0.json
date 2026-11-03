@@ -1,0 +1,32 @@
+{
+  "mission": "displaced",
+  "propulsion_lb_j": 23919.604374317812,
+  "seed_propulsion_j": 32911.68,
+  "baseline": "circle",
+  "radius_m": 42.5,
+  "accel_slots": 8,
+  "heading_rad": 0.0,
+  "max_speed_mps": 13.351768777756623,
+  "propulsion_j": 25985.26417893837,
+  "isac": {
+    "cov_ok": true,
+    "cov_statuses": [
+      "optimal_inaccurate"
+    ],
+    "cov_s": 347.0,
+    "propulsion_j": 25985.26417893837,
+    "vertical_motion_j": 0.0,
+    "kin_min_margin": 0.035288268309503046,
+    "total_j": 25995.951996578387,
+    "rf_j": 10.687817640016597,
+    "max_random_channel_outage": 0.0,
+    "max_pcrb_ucb_95": 0.0004742976591654368,
+    "min_worst_case_sinr_margin": 0.09238238570051749,
+    "max_rank_residual": 1.7946165892296585e-06,
+    "accepted": true,
+    "rejection_reasons": ""
+  },
+  "certified_gap_j": 2076.347622260575,
+  "max_displacement_from_seed_m": 84.95356624650533,
+  "max_horizontal_speed_mps": 13.351768777756623
+}

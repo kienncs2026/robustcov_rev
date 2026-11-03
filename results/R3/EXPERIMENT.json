@@ -1,0 +1,7 @@
+{
+  "experiment": "R3",
+  "title": "Conic solver and PCRB formulation comparison",
+  "reviewer_refs": "R3.3, R2.6, Prop. 2",
+  "notes": "MOSEK runs are skipped when MOSEK is not installed.",
+  "options": {}
+}

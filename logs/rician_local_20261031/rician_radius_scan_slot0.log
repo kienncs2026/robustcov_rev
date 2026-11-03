@@ -1,0 +1,5 @@
+r=0.2112 slot= 0 SCS      status=optimal                  P=1.4766 W (9s)
+r=0.2500 slot= 0 SCS      status=optimal                  P=1.8622 W (25s)
+r=0.2600 slot= 0 SCS      status=infeasible               P=inf W (97s)
+r=0.3665 slot= 0 SCS      status=infeasible               P=inf W (3s)
+r=0.6086 slot= 0 SCS      status=infeasible               P=inf W (2s)

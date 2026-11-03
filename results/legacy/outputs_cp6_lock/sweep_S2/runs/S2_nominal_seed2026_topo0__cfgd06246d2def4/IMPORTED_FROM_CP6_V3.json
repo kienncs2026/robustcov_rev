@@ -1,0 +1,7 @@
+{
+  "source_root": "outputs_cp6_v3",
+  "source_run": "outputs_cp6_v3/sweep_S2/runs/S2_nominal_seed2026_topo0__cfgd06246d2def4",
+  "config_fingerprint": "d06246d2def496ff53d5a2c04ab765e75a417b4fa848025252f1f37cf5bfafce",
+  "classification_at_import": "FEASIBLE",
+  "policy": "Only fingerprint-matched resolved runs are reused; unresolved numerical runs are recomputed."
+}

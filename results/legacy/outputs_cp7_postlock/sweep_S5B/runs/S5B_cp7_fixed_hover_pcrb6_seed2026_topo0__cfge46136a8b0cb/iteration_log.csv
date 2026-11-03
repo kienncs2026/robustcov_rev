@@ -1,0 +1,3 @@
+outer_iteration,accepted,total_energy_j,propulsion_energy_j,rf_energy_j,trajectory_penalty,trajectory_status,restoration_status,restoration_runtime_s,restoration_candidates_tested,restoration_iterations,initial_feasibility_bound_ratio,final_feasibility_bound_ratio,feasibility_bound_pass,worst_sensing_bound_ratio,worst_communication_bound_ratio
+-1,True,,,,,F0:initial_bound_pass,initial_bound_pass,0.025900125969201326,1.0,0.0,0.10057362332972418,0.10057362332972418,True,0.10057362332972418,0.013692935975353891
+0,True,32926.51551463743,32911.68,14.835514637431213,0.0,before_update,,,,,,,,,

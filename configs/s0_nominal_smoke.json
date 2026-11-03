@@ -1,0 +1,65 @@
+{
+  "scenario": "S0",
+  "output_root": "outputs_smoke",
+  "physical": {
+    "mx": 2,
+    "my": 2,
+    "pcrb_threshold_m2": 36.0,
+    "csi_error_radius": 0.02,
+    "initial_position_std_m": 4.0,
+    "initial_velocity_std_mps": 0.5,
+    "process_acceleration_std_mps2": 0.2
+  },
+  "mission": {
+    "duration_s": 24.0,
+    "slots": 8,
+    "q_initial_m": [
+      100.0,
+      300.0,
+      80.0
+    ],
+    "q_final_m": [
+      500.0,
+      300.0,
+      80.0
+    ],
+    "users_m": [
+      [
+        300.0,
+        160.0,
+        0.0
+      ]
+    ],
+    "targets_initial": [
+      [
+        300.0,
+        300.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "solver": {
+    "outer_iterations": 1,
+    "trajectory_updates": false,
+    "rank_refinement": true,
+    "out_of_sample_count": 200,
+    "channel_audit_samples": 50,
+    "solver_eps": 0.0005,
+    "solver_max_iters": 10000,
+    "random_seed": 2026,
+    "rank_targets": [
+      0.9,
+      0.97,
+      0.995
+    ]
+  },
+  "scheme": {
+    "name": "nominal_smoke",
+    "robust_communication": false,
+    "chance_sensing": false,
+    "perfect_information": false,
+    "fixed_trajectory": true,
+    "sensing_mode": "optimized"
+  }
+}

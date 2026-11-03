@@ -1,0 +1,7 @@
+{
+  "experiment": "R12",
+  "title": "Propulsion-first design (AO seeded by the propulsion-optimal path)",
+  "reviewer_refs": "Ed.3, R1.2, R2.5, R3.1",
+  "notes": "Uses the linear PCRB form and CLARABEL; compare with LEGACY S9 T0, S5A, S5B.",
+  "options": {}
+}

@@ -1,0 +1,2 @@
+status,reason,failure_code,joint_bound_slot1_certified_w,joint_bound_slot1_per_point_w,time_restoration_s,time_joint_bound_s,time_covariance_s,time_trajectory_s,time_screening_s,time_phase1_s,time_refinement_s,time_audit_s,covariance_passes,candidates_screened_out
+failed,"Proposition 5: joint illumination bound 2.02274 W exceeds P_max=2.0 W in slot 1, which is fixed by the boundary conditions; the surrogate is infeasible for every trajectory.",INFEASIBLE_CERTIFIED_BOUNDARY,2.0227351126950857,1.9944146949515105,0.0,0.3451444000002084,0.0,0.0,0.0,0.0,0.0,0.0,0,0

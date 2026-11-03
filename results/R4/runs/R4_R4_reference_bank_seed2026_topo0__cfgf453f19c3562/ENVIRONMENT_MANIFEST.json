@@ -1,0 +1,16 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-198-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "pid": 774647,
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "pandas": "2.3.3",
+  "cvxpy": "1.7.5",
+  "installed_solvers": [
+    "CLARABEL",
+    "OSQP",
+    "SCIPY",
+    "SCS"
+  ]
+}

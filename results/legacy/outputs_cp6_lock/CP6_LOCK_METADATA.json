@@ -1,0 +1,9 @@
+{
+  "cp6_version": "lock-v4",
+  "base_config_fingerprint": "6cf4e502e461fc3af8ec0ebcff07008611e5a1039614e89758d366308c080da2",
+  "output_root": "outputs_cp6_lock",
+  "reuse_source": "outputs_cp6_v3",
+  "reuse_count": 58,
+  "rerun_count": 6,
+  "reuse_policy": "Resolved CP6-v3 runs are retained only when full configuration fingerprints match."
+}

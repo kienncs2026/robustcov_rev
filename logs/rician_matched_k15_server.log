@@ -1,0 +1,2 @@
+K = 15 dB, matched CSI radius = 0.2112
+success=True failure= rf_j=56.44442144843448 rician_max_outage=0.0 rician_mean_outage=0.0 ucb=0.0015699951188064335

@@ -1,0 +1,42 @@
+2026-11-02 08:12:53 START 17 runs, 13 workers: R12=11, R2=6
+2026-11-02 08:12:54 [1/17] R2:reference_random_search OK wall=0.00h
+2026-11-02 08:12:54 [2/17] R2:reference_powell OK wall=0.00h
+2026-11-02 09:17:57 [3/17] R2:reference_propulsion_only OK wall=1.08h
+2026-11-02 09:17:57 [4/17] R2:displaced_random_search OK wall=0.00h
+2026-11-02 09:17:57 [5/17] R2:displaced_powell OK wall=0.00h
+2026-11-02 10:18:01 [6/17] R12:reference_proposed CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [7/17] R12:reference_deterministic_joint CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [8/17] R12:reference_trajectory_fixed_sensing CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [9/17] R12:displaced260_eps9 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [10/17] R12:displaced260_eps8 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [11/17] R12:displaced260_eps7 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [12/17] R12:displaced260_eps6 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [13/17] R12:displaced260_eps5 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [14/17] R12:displaced180_eps9 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [15/17] R12:displaced210_eps9 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 [16/17] R12:displaced240_eps9 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 COLLECT R12 -> /home/sudo_user/kiennt/robustcov_rev/results/R12/aggregate.csv
+2026-11-02 10:18:01 [17/17] R2:displaced_propulsion_only CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-11-02 10:18:01 COLLECT R2 -> /home/sudo_user/kiennt/robustcov_rev/results/R2/aggregate.csv
+2026-11-02 10:18:01 ALL DONE
+2026-11-02 10:18:54 START 17 runs, 13 workers: R12=11, R2=6
+2026-11-02 10:18:56 [1/17] R2:reference_propulsion_only OK wall=0.00h
+2026-11-02 10:18:56 [2/17] R2:reference_powell OK wall=0.00h
+2026-11-02 10:18:56 [3/17] R2:reference_random_search OK wall=0.00h
+2026-11-02 10:18:56 [4/17] R2:displaced_random_search OK wall=0.00h
+2026-11-02 10:18:56 [5/17] R2:displaced_powell OK wall=0.00h
+2026-11-02 11:12:13 [6/17] R12:reference_trajectory_fixed_sensing OK wall=0.89h
+2026-11-02 11:13:22 [7/17] R12:reference_deterministic_joint OK wall=0.91h
+2026-11-02 11:20:24 [8/17] R12:reference_proposed OK wall=1.02h
+2026-11-02 11:56:34 [9/17] R2:displaced_propulsion_only OK wall=1.63h
+2026-11-02 11:56:34 COLLECT R2 -> /home/sudo_user/kiennt/robustcov_rev/results/R2/aggregate.csv
+2026-11-02 11:57:13 [10/17] R12:displaced260_eps8 OK wall=1.64h
+2026-11-02 11:57:43 [11/17] R12:displaced260_eps9 OK wall=1.65h
+2026-11-02 11:57:59 [12/17] R12:displaced180_eps9 OK wall=1.65h
+2026-11-02 11:58:51 [13/17] R12:displaced260_eps7 OK wall=1.67h
+2026-11-02 11:58:59 [14/17] R12:displaced260_eps6 OK wall=1.67h
+2026-11-02 11:59:23 [15/17] R12:displaced240_eps9 OK wall=1.67h
+2026-11-02 11:59:26 [16/17] R12:displaced210_eps9 OK wall=1.67h
+2026-11-02 11:59:30 [17/17] R12:displaced260_eps5 OK wall=1.68h
+2026-11-02 11:59:30 COLLECT R12 -> /home/sudo_user/kiennt/robustcov_rev/results/R12/aggregate.csv
+2026-11-02 11:59:30 ALL DONE

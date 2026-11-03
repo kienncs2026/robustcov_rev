@@ -1,0 +1,2 @@
+checked_slots,checked_sensing_points,checked_users,sensing_bound_violations,communication_bound_violations,worst_sensing_ratio,worst_communication_ratio,worst_necessary_condition_ratio,fixed_geometry_necessary_conditions_pass,interpretation
+48,864,192,26,0,1.2667658613365782,0.04974213169827172,1.2667658613365782,False,A ratio above one certifies fixed-geometry infeasibility for the corresponding necessary condition. A ratio below one does not prove joint feasibility.

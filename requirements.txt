@@ -1,0 +1,10 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+cvxpy>=1.5
+scs>=3.2
+psutil>=5.9
+pytest>=8.0
+# optional: mosek>=10 (R3 solver comparison, needs a license)
+clarabel>=0.9

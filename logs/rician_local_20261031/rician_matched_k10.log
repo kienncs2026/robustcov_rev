@@ -1,0 +1,2 @@
+K = 10 dB, matched CSI radius = 0.3665
+success=False failure=SOLVER_EXCEPTION rf_j=None rician_max_outage=None rician_mean_outage=None ucb=None

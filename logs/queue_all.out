@@ -1,0 +1,143 @@
+2026-10-31 15:03:12 START 127 runs, 14 workers: R12=11, R2=6, R11=5, R5=3, R8=9, R7=15, R3=6, R4=4, R6=8, R1=60
+2026-10-31 15:03:14 [1/127] R2:reference_random_search OK wall=0.00h
+2026-10-31 15:03:14 [2/127] R2:reference_powell OK wall=0.00h
+2026-10-31 15:03:14 [3/127] R2:displaced_random_search OK wall=0.00h
+2026-10-31 15:03:14 [4/127] R2:displaced_powell OK wall=0.00h
+2026-10-31 15:03:14 [5/127] R12:reference_deterministic_joint OK wall=0.00h
+2026-10-31 15:03:14 [6/127] R2:reference_propulsion_only OK wall=0.00h
+2026-10-31 15:03:14 [7/127] R11:rate1_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-31 15:03:14 [8/127] R11:rate2_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-31 15:03:14 [9/127] R11:rate3_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-31 15:03:14 [10/127] R11:rate4_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-31 15:03:14 [11/127] R5:robust_fixed_sensing10 OK wall=0.00h
+2026-10-31 15:03:14 [12/127] R11:reference_all_slots OK wall=0.00h
+2026-10-31 15:03:14 COLLECT R11 -> /home/sudo_user/kiennt/robustcov_rev/results/R11/aggregate.csv
+2026-10-31 15:03:14 [13/127] R5:robust_fixed_sensing20 OK wall=0.00h
+2026-10-31 15:03:14 [14/127] R5:robust_fixed_sensing30 FAILED PSD_VIOLATION wall=0.00h
+2026-10-31 15:03:14 COLLECT R5 -> /home/sudo_user/kiennt/robustcov_rev/results/R5/aggregate.csv
+2026-10-31 15:03:14 [15/127] R8:multistart1 OK wall=0.00h
+2026-10-31 15:03:14 [16/127] R8:multistart3 OK wall=0.00h
+2026-10-31 15:03:14 [17/127] R8:multistart5 OK wall=0.00h
+2026-10-31 15:03:14 [18/127] R8:multistart8 OK wall=0.00h
+2026-10-31 15:03:14 [19/127] R8:segments4 OK wall=0.00h
+2026-10-31 15:03:14 [20/127] R8:segments8 OK wall=0.00h
+2026-10-31 15:03:14 [21/127] R8:segments12 OK wall=0.00h
+2026-10-31 15:03:14 [22/127] R8:maxiter15 OK wall=0.00h
+2026-10-31 15:03:14 [23/127] R8:maxiter70 OK wall=0.00h
+2026-10-31 15:03:14 COLLECT R8 -> /home/sudo_user/kiennt/robustcov_rev/results/R8/aggregate.csv
+2026-10-31 15:03:14 [24/127] R7:reference_margin00 OK wall=0.00h
+2026-10-31 15:03:14 [25/127] R7:reference_margin05 OK wall=0.00h
+2026-10-31 15:03:14 [26/127] R7:reference_margin10 OK wall=0.00h
+2026-10-31 15:03:14 [27/127] R7:reference_margin15 OK wall=0.00h
+2026-10-31 15:03:14 [28/127] R7:reference_margin20 OK wall=0.00h
+2026-10-31 15:03:14 [29/127] R7:local1_margin00 OK wall=0.00h
+2026-10-31 15:03:14 [30/127] R7:local1_margin05 OK wall=0.00h
+2026-10-31 15:03:14 [31/127] R7:local1_margin10 OK wall=0.00h
+2026-10-31 15:03:14 [32/127] R7:local1_margin15 OK wall=0.00h
+2026-10-31 15:03:14 [33/127] R7:local1_margin20 OK wall=0.00h
+2026-10-31 15:03:14 [34/127] R7:local2_margin00 OK wall=0.00h
+2026-10-31 15:03:14 [35/127] R7:local2_margin05 OK wall=0.00h
+2026-10-31 15:03:14 [36/127] R7:local2_margin10 OK wall=0.00h
+2026-10-31 15:03:14 [37/127] R7:local2_margin15 OK wall=0.00h
+2026-10-31 15:03:14 [38/127] R7:local2_margin20 OK wall=0.00h
+2026-10-31 15:03:14 COLLECT R7 -> /home/sudo_user/kiennt/robustcov_rev/results/R7/aggregate.csv
+2026-10-31 15:03:14 [39/127] R3:scs_schur OK wall=0.00h
+2026-10-31 15:03:14 [40/127] R3:clarabel_schur FAILED SOLVER_EXCEPTION wall=0.00h
+2026-10-31 15:03:14 [41/127] R3:mosek_schur SKIP solver MOSEK wall=0.00h
+2026-10-31 15:03:14 [42/127] R3:scs_linear OK wall=0.00h
+2026-10-31 15:03:14 [43/127] R3:mosek_linear SKIP solver MOSEK wall=0.00h
+2026-10-31 15:03:14 [44/127] R3:clarabel_linear OK wall=0.00h
+2026-10-31 15:03:14 COLLECT R3 -> /home/sudo_user/kiennt/robustcov_rev/results/R3/aggregate.csv
+2026-10-31 15:03:14 [45/127] R4:reference_bank OK wall=0.00h
+2026-10-31 15:03:14 [46/127] R4:reference_gaussian_randomization OK wall=0.00h
+2026-10-31 15:03:14 [47/127] R4:s3corner_bank OK wall=0.00h
+2026-10-31 15:03:14 [48/127] R4:s3corner_gaussian_randomization OK wall=0.00h
+2026-10-31 15:03:14 COLLECT R4 -> /home/sudo_user/kiennt/robustcov_rev/results/R4/aggregate.csv
+2026-10-31 15:03:14 [49/127] R6:reference_scenario OK wall=0.00h
+2026-10-31 15:03:14 [50/127] R6:reference_refined OK wall=0.00h
+2026-10-31 15:03:14 [51/127] R6:local1_scenario OK wall=0.00h
+2026-10-31 15:03:14 [52/127] R6:local1_refined OK wall=0.00h
+2026-10-31 15:03:14 [53/127] R6:local2_scenario OK wall=0.00h
+2026-10-31 15:03:14 [54/127] R6:local2_refined OK wall=0.00h
+2026-10-31 15:03:14 [55/127] R6:s3corner_scenario OK wall=0.00h
+2026-10-31 15:03:14 [56/127] R6:s3corner_refined OK wall=0.00h
+2026-10-31 15:03:14 COLLECT R6 -> /home/sudo_user/kiennt/robustcov_rev/results/R6/aggregate.csv
+2026-10-31 15:03:14 [57/127] R1:local20000_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [58/127] R1:local20000_refined OK wall=0.00h
+2026-10-31 15:03:14 [59/127] R1:local20001_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [60/127] R1:local20001_refined OK wall=0.00h
+2026-10-31 15:03:14 [61/127] R1:local20002_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [62/127] R1:local20002_refined OK wall=0.00h
+2026-10-31 15:03:14 [63/127] R1:local20003_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [64/127] R1:local20003_refined OK wall=0.00h
+2026-10-31 15:03:14 [65/127] R1:local20004_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [66/127] R1:local20004_refined OK wall=0.00h
+2026-10-31 15:03:14 [67/127] R1:local20005_refined OK wall=0.00h
+2026-10-31 15:03:14 [68/127] R1:local20005_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [69/127] R1:local20006_nine_state OK wall=0.00h
+2026-10-31 15:03:14 [70/127] R1:local20006_refined OK wall=0.00h
+2026-10-31 15:03:14 [71/127] R1:local20007_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [72/127] R1:local20007_refined OK wall=0.00h
+2026-10-31 15:03:15 [73/127] R1:local20008_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [74/127] R1:local20008_refined OK wall=0.00h
+2026-10-31 15:03:15 [75/127] R1:local20009_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [76/127] R1:local20009_refined OK wall=0.00h
+2026-10-31 15:03:15 [77/127] R1:local20010_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [78/127] R1:local20010_refined OK wall=0.00h
+2026-10-31 15:03:15 [79/127] R1:local20011_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [80/127] R1:local20011_refined OK wall=0.00h
+2026-10-31 15:03:15 [81/127] R1:local20012_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [82/127] R1:local20012_refined OK wall=0.00h
+2026-10-31 15:03:15 [83/127] R1:local20013_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [84/127] R1:local20013_refined OK wall=0.00h
+2026-10-31 15:03:15 [85/127] R1:local20014_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [86/127] R1:local20014_refined OK wall=0.00h
+2026-10-31 15:03:15 [87/127] R1:local20015_refined OK wall=0.00h
+2026-10-31 15:03:15 [88/127] R1:local20015_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [89/127] R1:local20016_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [90/127] R1:local20016_refined OK wall=0.00h
+2026-10-31 15:03:15 [91/127] R1:local20017_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [92/127] R1:local20017_refined OK wall=0.00h
+2026-10-31 15:03:15 [93/127] R1:local20018_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [94/127] R1:local20018_refined OK wall=0.00h
+2026-10-31 15:03:15 [95/127] R1:local20019_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [96/127] R1:unrestricted30000_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [97/127] R1:unrestricted30000_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [98/127] R1:local20019_refined OK wall=0.00h
+2026-10-31 15:03:15 [99/127] R1:unrestricted30001_nine_state FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-31 15:03:15 [100/127] R1:unrestricted30001_refined FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-31 15:03:15 [101/127] R1:unrestricted30002_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [102/127] R1:unrestricted30003_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [103/127] R1:unrestricted30002_refined OK wall=0.00h
+2026-10-31 15:03:15 [104/127] R1:unrestricted30003_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [105/127] R1:unrestricted30004_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [106/127] R1:unrestricted30004_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [107/127] R1:unrestricted30005_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [108/127] R1:unrestricted30005_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [109/127] R1:unrestricted30006_nine_state FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-31 15:03:15 [110/127] R1:unrestricted30006_refined FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-31 15:03:15 [111/127] R1:unrestricted30007_nine_state OK wall=0.00h
+2026-10-31 15:03:15 [112/127] R1:unrestricted30007_refined OK wall=0.00h
+2026-10-31 15:03:15 [113/127] R1:unrestricted30008_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [114/127] R1:unrestricted30008_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [115/127] R1:unrestricted30009_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:15 [116/127] R1:unrestricted30009_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.00h
+2026-10-31 15:03:16 COLLECT R1 -> /home/sudo_user/kiennt/robustcov_rev/results/R1/aggregate.csv
+
+thread '<unnamed>' panicked at src/solver/core/cones/psdtrianglecone.rs:176:27:
+SVD error: SVD(1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+2026-10-31 15:43:21 [117/127] R12:reference_trajectory_fixed_sensing OK wall=0.67h
+2026-10-31 15:48:32 [118/127] R12:reference_proposed OK wall=0.76h
+2026-10-31 16:24:15 [119/127] R2:displaced_propulsion_only OK wall=1.35h
+2026-10-31 16:24:15 COLLECT R2 -> /home/sudo_user/kiennt/robustcov_rev/results/R2/aggregate.csv
+2026-10-31 17:22:11 [120/127] R12:displaced260_eps9 OK wall=2.32h
+2026-10-31 17:23:26 [121/127] R12:displaced260_eps8 OK wall=2.34h
+2026-10-31 17:28:41 [122/127] R12:displaced260_eps7 OK wall=2.42h
+2026-10-31 17:29:40 [123/127] R12:displaced260_eps6 OK wall=2.44h
+2026-10-31 17:32:28 [124/127] R12:displaced260_eps5 OK wall=2.49h
+2026-10-31 17:32:43 [125/127] R12:displaced210_eps9 OK wall=2.49h
+2026-10-31 17:33:45 [126/127] R12:displaced240_eps9 OK wall=2.51h
+2026-10-31 17:34:54 [127/127] R12:displaced180_eps9 OK wall=2.53h
+2026-10-31 17:34:54 COLLECT R12 -> /home/sudo_user/kiennt/robustcov_rev/results/R12/aggregate.csv
+2026-10-31 17:34:54 ALL DONE

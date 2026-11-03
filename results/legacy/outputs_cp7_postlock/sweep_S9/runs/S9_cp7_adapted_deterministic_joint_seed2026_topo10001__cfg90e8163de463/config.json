@@ -1,0 +1,205 @@
+{
+  "physical": {
+    "fc_hz": 30000000000.0,
+    "bandwidth_hz": 20000000.0,
+    "mx": 4,
+    "my": 4,
+    "pathloss_exponent": 2.2,
+    "noise_psd_dbm_hz": -174.0,
+    "noise_figure_db": 7.0,
+    "p_max_w": 2.0,
+    "pa_efficiency": 0.35,
+    "min_spectral_efficiency": 2.0,
+    "csi_error_radius": 0.05,
+    "csi_model": "isotropic",
+    "qz_min_m": 50.0,
+    "qz_max_m": 130.0,
+    "vh_max_mps": 30.0,
+    "vz_max_mps": 5.0,
+    "a_max_mps2": 5.0,
+    "p0_w": 580.65,
+    "pi_w": 790.67,
+    "u_tip_mps": 200.0,
+    "v0_mps": 7.2,
+    "d0": 0.3,
+    "air_density": 1.225,
+    "rotor_solidity": 0.05,
+    "rotor_area_m2": 0.79,
+    "gravity_mps2": 9.81,
+    "vertical_loss_coeff": 20.0,
+    "pcrb_threshold_m2": 9.0,
+    "pcrb_violation": 0.05,
+    "confidence_radius": 3.08,
+    "enforcement_margin": 0.1,
+    "sensing_reference_range_m": 150.0,
+    "sensing_reference_power_w": 0.25,
+    "sensing_reference_snr_db": 10.0,
+    "range_std_ref_m": 0.5,
+    "radial_velocity_std_ref_mps": 0.2,
+    "direction_cosine_std_ref": 0.001,
+    "process_acceleration_std_mps2": 0.2,
+    "initial_position_std_m": 4.0,
+    "initial_velocity_std_mps": 0.5
+  },
+  "mission": {
+    "duration_s": 24.0,
+    "slots": 48,
+    "q_initial_m": [
+      50.0,
+      300.0,
+      80.0
+    ],
+    "q_final_m": [
+      550.0,
+      300.0,
+      80.0
+    ],
+    "v_initial_mps": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "v_final_mps": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "users_m": [
+      [
+        407.4032115807325,
+        364.7351165607987,
+        0.0
+      ],
+      [
+        219.24242570521625,
+        231.8177411517079,
+        0.0
+      ],
+      [
+        201.59098515652602,
+        187.55358821842734,
+        0.0
+      ],
+      [
+        64.2228773116505,
+        545.8919642864817,
+        0.0
+      ]
+    ],
+    "targets_initial": [
+      [
+        346.20280290670064,
+        385.5875020973633,
+        -7.536977834167201,
+        0.5031078075940965
+      ],
+      [
+        409.4704871585257,
+        367.97649722151624,
+        1.6176920848491543,
+        4.926391726550646
+      ]
+    ]
+  },
+  "solver": {
+    "solver": "SCS",
+    "solver_eps": 1e-07,
+    "solver_max_iters": 200000,
+    "verbose": false,
+    "outer_iterations": 4,
+    "outer_tolerance": 0.001,
+    "trajectory_updates": true,
+    "trajectory_control_segments": 6,
+    "trajectory_powell_maxiter": 35,
+    "trajectory_method": "SLSQP",
+    "trajectory_multistart": 3,
+    "trajectory_probe_scale": 0.25,
+    "trajectory_trust_accel_mps2": 0.8,
+    "trajectory_penalty": 500000.0,
+    "trajectory_smooth_weight": 0.1,
+    "trajectory_backtracking_factors": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625
+    ],
+    "trajectory_feasibility_tolerance": 1e-06,
+    "energy_acceptance_tolerance_j": 1e-06,
+    "rank_refinement": true,
+    "rank_targets": [
+      0.9,
+      0.99,
+      0.999,
+      0.9999,
+      0.99999
+    ],
+    "rank_tolerance": 0.0001,
+    "rank_one_recovery": true,
+    "covariance_parallel_workers": 1,
+    "pcrb_enforcement": "principal_axes",
+    "scenario_samples": 100,
+    "extra_boundary_points": 0,
+    "out_of_sample_count": 10000,
+    "channel_audit_samples": 2000,
+    "random_seed": 2026,
+    "pcrb_residual_tol_m2": 0.001,
+    "fallback_solver": "CLARABEL",
+    "psd_tolerance": 1e-06,
+    "fallback_on_inaccurate": true,
+    "max_final_inaccurate_fraction": 0.25,
+    "trajectory_activation_min_displacement_m": 1.0,
+    "trajectory_activation_min_energy_gain_j": 1.0,
+    "feasibility_restoration_enabled": true,
+    "feasibility_restoration_segments": 3,
+    "feasibility_restoration_maxiter": 15,
+    "feasibility_restoration_multistart": 3,
+    "feasibility_restoration_ratio_tolerance": 0.001,
+    "feasibility_restoration_smooth_weight": 0.001,
+    "feasibility_restoration_attraction_strengths": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "resume_enabled": true,
+    "skip_completed": true,
+    "rerun_failed": false
+  },
+  "scheme": {
+    "name": "cp7_adapted_deterministic_joint",
+    "robust_communication": false,
+    "chance_sensing": false,
+    "perfect_information": false,
+    "fixed_trajectory": false,
+    "fixed_altitude_m": null,
+    "sensing_mode": "optimized",
+    "sensing_fraction": 0.2
+  },
+  "evaluation": {
+    "actual_pathloss_exponent": null,
+    "actual_process_acceleration_std_mps2": null,
+    "rcs_log_std_db": 0.0
+  },
+  "output_root": "outputs_cp7_postlock/sweep_S9/runs",
+  "scenario": "S9",
+  "topology_seed": 10001,
+  "software": {
+    "python": "3.12.3 (main, Nov  6 2025, 13:44:16) [GCC 13.3.0]",
+    "platform": "Linux-6.14.0-1015-nvidia-aarch64-with-glibc2.39",
+    "processor": "aarch64",
+    "pid": 3603737,
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "pandas": "3.0.3",
+    "cvxpy": "1.9.2",
+    "installed_solvers": [
+      "CLARABEL",
+      "SCS",
+      "SCIPY",
+      "HIGHS",
+      "OSQP"
+    ]
+  }
+}

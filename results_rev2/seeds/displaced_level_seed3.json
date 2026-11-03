@@ -1,0 +1,34 @@
+{
+  "mission": "displaced",
+  "design": "level_propulsion_first",
+  "seed_index": 3,
+  "multistart": 30,
+  "rng_seed": 63029,
+  "search_wall_s": 0.0,
+  "propulsion_only_seed_propulsion_j": 32911.68,
+  "propulsion_only_propulsion_j": 26166.455121822943,
+  "propulsion_only_runtime_s": null,
+  "propulsion_only_iterations": null,
+  "propulsion_only_max_displacement_m": 125.18139632914011,
+  "propulsion_only_level": true,
+  "propulsion_only_vertical_j": 0.0,
+  "search_reused_saved_path": true,
+  "isac": {
+    "cov_ok": true,
+    "cov_statuses": [
+      "optimal_inaccurate"
+    ],
+    "cov_s": 179.4,
+    "propulsion_j": 26166.455121822943,
+    "vertical_motion_j": 0.0,
+    "kin_min_margin": 0.00095201837689185,
+    "total_j": 26174.34620196394,
+    "rf_j": 7.891080140999316,
+    "max_random_channel_outage": 0.0,
+    "max_pcrb_ucb_95": 0.0006294441486871455,
+    "min_worst_case_sinr_margin": 0.10536854309764543,
+    "max_rank_residual": 1.01221494007425e-06,
+    "accepted": true,
+    "rejection_reasons": ""
+  }
+}

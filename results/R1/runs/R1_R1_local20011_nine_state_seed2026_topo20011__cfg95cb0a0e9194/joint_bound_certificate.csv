@@ -1,0 +1,2 @@
+slot,per_point_max_pmin_w,joint_bound_primal_w,joint_bound_certified_w,p_max_w,certified_ratio,certified_infeasible,active_points,sdp_status
+0,0.7884324316820159,0.7935391061632818,0.7935389924206226,2.0,0.3967694962103113,False,0;2;3;5;6;7;8;9;10;13;14;15;16;17,optimal_inaccurate

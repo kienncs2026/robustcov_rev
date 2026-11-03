@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\tools\run_queue.py", line 60, in _worker
+    res = run_simulation(cfg, make_plots=False)
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\src\uav_isac\ao_solver.py", line 380, in run_simulation
+    w_all, s_all, slot_results = _timed_cov(
+                                 ~~~~~~~~~~^
+    trajectory.q, trajectory.v, users, target_means, target_covariances,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    initial_s=(warm_s if outer == start_outer else None),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\src\uav_isac\ao_solver.py", line 171, in _timed_cov
+    out = solve_covariances(*args, **kwargs)
+  File "D:\13.github_icn\code_paper_robustcov\robustcov_rev\src\uav_isac\covariance.py", line 931, in solve_covariances
+    tmp_npz.replace(checkpoint_npz)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\trkie\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'D:\\13.github_icn\\code_paper_robustcov\\robustcov_rev\\results\\R1\\runs\\R1_R1_unrestricted30007_refined_seed2026_topo30007__cfg99c38dc630ff\\state\\covariance_slots\\outer_000_current.tmp.npz' -> 'D:\\13.github_icn\\code_paper_robustcov\\robustcov_rev\\results\\R1\\runs\\R1_R1_unrestricted30007_refined_seed2026_topo30007__cfg99c38dc630ff\\state\\covariance_slots\\outer_000_current.npz'

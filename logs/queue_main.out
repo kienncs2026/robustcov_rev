@@ -1,0 +1,123 @@
+2026-10-28 20:28:49 START 112 runs, 15 workers: R11=5, R2=6, R5=3, R8=9, R7=15, R3=6, R4=4, R6=4, R1=60
+2026-10-28 20:28:57 [1/112] R11:rate2_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-28 20:28:58 [2/112] R11:rate3_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-28 20:28:58 [3/112] R11:rate1_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-28 20:29:00 [4/112] R11:rate4_eps4 FAILED INFEASIBLE_CERTIFIED_BOUNDARY wall=0.00h
+2026-10-28 20:39:10 [5/112] R8:multistart1 OK wall=0.17h
+2026-10-28 20:39:26 [6/112] R8:segments4 OK wall=0.17h
+2026-10-28 20:41:03 [7/112] R2:displaced_propulsion_only OK wall=0.20h
+2026-10-28 20:48:28 [8/112] R2:displaced_random_search OK wall=0.32h
+2026-10-28 20:48:47 [9/112] R8:multistart5 OK wall=0.33h
+2026-10-28 20:51:17 [10/112] R8:multistart3 OK wall=0.37h
+2026-10-28 20:51:33 [11/112] R8:segments8 OK wall=0.20h
+2026-10-28 20:51:38 [12/112] R8:multistart8 OK wall=0.38h
+2026-10-28 20:51:40 [13/112] R8:segments12 OK wall=0.20h
+2026-10-28 21:03:36 [14/112] R8:maxiter15 OK wall=0.37h
+2026-10-28 21:08:14 [15/112] R8:maxiter70 OK wall=0.33h
+2026-10-28 21:08:15 COLLECT R8 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R8\aggregate.csv
+2026-10-28 21:48:18 [16/112] R11:reference_all_slots OK wall=1.32h
+2026-10-28 21:48:18 COLLECT R11 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R11\aggregate.csv
+2026-10-28 22:00:58 [17/112] R5:robust_fixed_sensing20 OK wall=1.53h
+2026-10-28 22:09:14 [18/112] R5:robust_fixed_sensing10 OK wall=1.67h
+2026-10-28 22:10:30 [19/112] R7:reference_margin10 OK wall=1.31h
+2026-10-28 22:12:37 [20/112] R7:reference_margin05 OK wall=1.35h
+2026-10-28 22:16:22 [21/112] R7:reference_margin15 OK wall=1.41h
+2026-10-28 22:20:30 [22/112] R7:reference_margin00 OK wall=1.53h
+2026-10-28 22:25:18 [23/112] R7:local1_margin00 OK wall=1.36h
+2026-10-28 22:31:33 [24/112] R7:local1_margin05 OK wall=1.38h
+2026-10-28 22:35:51 [25/112] R7:reference_margin20 OK wall=1.73h
+2026-10-28 23:22:36 [26/112] R7:local1_margin10 OK wall=1.56h
+2026-10-28 23:26:22 [27/112] R7:local1_margin20 OK wall=1.28h
+2026-10-28 23:27:57 [28/112] R3:clarabel_schur FAILED SOLVER_EXCEPTION wall=0.08h
+2026-10-28 23:28:20 [29/112] R3:mosek_schur SKIP solver MOSEK wall=0.00h
+2026-10-28 23:28:41 [30/112] R3:mosek_linear SKIP solver MOSEK wall=0.00h
+2026-10-28 23:31:00 [31/112] R2:reference_random_search OK wall=3.03h
+2026-10-28 23:31:56 [32/112] R7:local1_margin15 OK wall=1.51h
+2026-10-28 23:33:39 [33/112] R2:reference_propulsion_only OK wall=3.08h
+2026-10-28 23:46:31 [34/112] R7:local2_margin05 OK wall=1.56h
+2026-10-28 23:50:23 [35/112] R7:local2_margin20 OK wall=1.41h
+2026-10-28 23:54:14 [36/112] R7:local2_margin00 OK wall=1.72h
+2026-10-28 23:55:52 [37/112] R2:displaced_powell OK wall=3.45h
+2026-10-28 23:56:30 [38/112] R7:local2_margin10 OK wall=1.66h
+2026-10-28 23:58:22 [39/112] R7:local2_margin15 OK wall=1.62h
+2026-10-28 23:58:23 COLLECT R7 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R7\aggregate.csv
+2026-10-29 00:04:37 [40/112] R2:reference_powell OK wall=3.59h
+2026-10-29 00:04:37 COLLECT R2 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R2\aggregate.csv
+2026-10-29 00:06:13 [41/112] R3:scs_linear OK wall=1.50h
+2026-10-29 00:12:34 [42/112] R3:clarabel_linear OK wall=0.76h
+2026-10-29 00:35:27 [43/112] R4:reference_bank OK wall=1.11h
+2026-10-29 00:36:36 [44/112] R4:reference_gaussian_randomization OK wall=1.09h
+2026-10-29 00:42:27 [45/112] R1:local20000_refined OK wall=0.73h
+2026-10-29 00:43:50 [46/112] R6:reference_refined OK wall=0.95h
+2026-10-29 00:47:08 [47/112] R6:local2_refined OK wall=0.87h
+2026-10-29 00:48:29 [48/112] R3:scs_schur OK wall=2.28h
+2026-10-29 00:48:29 COLLECT R3 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R3\aggregate.csv
+2026-10-29 00:57:52 [49/112] R1:local20001_refined OK wall=0.86h
+2026-10-29 01:12:21 [50/112] R1:local20000_nine_state OK wall=1.26h
+2026-10-29 01:13:20 [51/112] R6:local1_refined OK wall=1.38h
+2026-10-29 01:28:35 [52/112] R1:local20001_nine_state OK wall=1.40h
+2026-10-29 01:29:00 [53/112] R1:local20003_refined OK wall=0.77h
+2026-10-29 01:32:47 [54/112] R1:local20002_nine_state OK wall=1.33h
+2026-10-29 01:35:16 [55/112] R1:local20004_refined OK wall=0.80h
+2026-10-29 01:42:00 [56/112] R1:local20005_refined OK wall=0.73h
+2026-10-29 02:00:29 [57/112] R1:local20003_nine_state OK wall=1.40h
+2026-10-29 02:01:31 [58/112] R1:local20004_nine_state OK wall=1.29h
+2026-10-29 02:04:12 [59/112] R1:local20005_nine_state OK wall=1.26h
+2026-10-29 02:16:39 [60/112] R1:local20008_refined OK wall=0.69h
+2026-10-29 02:25:34 [61/112] R1:local20006_nine_state OK wall=1.22h
+2026-10-29 02:36:42 [62/112] R1:local20008_nine_state OK wall=1.06h
+2026-10-29 02:38:26 [63/112] R1:local20006_refined OK wall=1.42h
+2026-10-29 02:41:26 [64/112] R1:local20010_refined OK wall=0.62h
+2026-10-29 02:41:50 [65/112] R1:local20002_refined OK wall=2.11h
+2026-10-29 02:47:47 [66/112] R1:local20009_refined OK wall=0.79h
+2026-10-29 02:56:14 [67/112] R1:local20007_refined OK wall=1.45h
+2026-10-29 03:07:01 [68/112] R1:local20010_nine_state OK wall=1.09h
+2026-10-29 03:20:35 [69/112] R1:local20013_refined OK wall=0.64h
+2026-10-29 03:21:31 [70/112] R1:local20012_refined OK wall=0.72h
+2026-10-29 03:25:27 [71/112] R1:local20009_nine_state OK wall=1.72h
+2026-10-29 03:38:59 [72/112] R1:local20014_refined OK wall=0.71h
+2026-10-29 03:44:09 [73/112] R1:local20012_nine_state OK wall=1.12h
+2026-10-29 03:45:32 [74/112] R1:local20011_refined OK wall=1.33h
+2026-10-29 03:50:14 [75/112] R1:local20011_nine_state OK wall=1.56h
+2026-10-29 03:55:35 [76/112] R1:local20013_nine_state OK wall=1.23h
+2026-10-29 04:06:03 [77/112] R1:local20016_refined OK wall=0.68h
+2026-10-29 04:21:39 [78/112] R1:local20014_nine_state OK wall=1.56h
+2026-10-29 04:29:43 [79/112] R1:local20016_nine_state OK wall=1.14h
+2026-10-29 04:32:45 [80/112] R1:local20015_refined OK wall=1.20h
+2026-10-29 04:33:06 [81/112] R1:unrestricted30001_nine_state FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-29 04:33:27 [82/112] R1:unrestricted30001_refined FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-29 04:34:47 [83/112] R1:local20018_refined OK wall=0.74h
+2026-10-29 04:49:12 [84/112] R1:local20019_refined OK wall=0.72h
+2026-10-29 04:51:03 [85/112] R1:local20017_nine_state OK wall=1.20h
+2026-10-29 04:52:08 [86/112] R1:local20018_nine_state OK wall=1.11h
+2026-10-29 04:55:50 [87/112] R1:local20015_nine_state OK wall=1.81h
+2026-10-29 05:06:44 [88/112] R1:local20017_refined OK wall=1.38h
+2026-10-29 05:49:41 [89/112] R1:unrestricted30002_refined OK wall=1.25h
+2026-10-29 06:08:36 [90/112] R1:local20019_nine_state OK wall=2.22h
+2026-10-29 06:10:35 [91/112] R1:unrestricted30006_nine_state FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.01h
+2026-10-29 06:12:52 [92/112] R1:unrestricted30006_refined FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.01h
+2026-10-29 08:06:33 [93/112] R1:unrestricted30002_nine_state OK wall=3.55h
+2026-10-29 08:10:20 [94/112] R5:robust_fixed_sensing30 CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 COLLECT R5 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R5\aggregate.csv
+2026-10-29 08:10:21 [95/112] R4:s3corner_bank CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [96/112] R4:s3corner_gaussian_randomization CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 COLLECT R4 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R4\aggregate.csv
+2026-10-29 08:10:21 [97/112] R6:s3corner_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 COLLECT R6 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R6\aggregate.csv
+2026-10-29 08:10:21 [98/112] R1:local20007_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [99/112] R1:unrestricted30000_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [100/112] R1:unrestricted30000_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [101/112] R1:unrestricted30003_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [102/112] R1:unrestricted30003_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [103/112] R1:unrestricted30004_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [104/112] R1:unrestricted30004_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [105/112] R1:unrestricted30005_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [106/112] R1:unrestricted30005_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [107/112] R1:unrestricted30007_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [108/112] R1:unrestricted30007_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [109/112] R1:unrestricted30008_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [110/112] R1:unrestricted30008_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [111/112] R1:unrestricted30009_nine_state CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 [112/112] R1:unrestricted30009_refined CRASH BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.') wall=nanh
+2026-10-29 08:10:21 COLLECT R1 -> D:\13.github_icn\code_paper_robustcov\robustcov_rev\results\R1\aggregate.csv
+2026-10-29 08:10:21 ALL DONE

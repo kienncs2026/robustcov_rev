@@ -1,0 +1,148 @@
+{
+  "scenario": "S9R",
+  "output_root": "outputs_cp7_s9r",
+  "physical": {
+    "fc_hz": 30000000000.0,
+    "bandwidth_hz": 20000000.0,
+    "mx": 4,
+    "my": 4,
+    "pathloss_exponent": 2.2,
+    "p_max_w": 2.0,
+    "pa_efficiency": 0.35,
+    "min_spectral_efficiency": 2.0,
+    "csi_error_radius": 0.05,
+    "pcrb_threshold_m2": 9.0,
+    "pcrb_violation": 0.05,
+    "confidence_radius": 3.08,
+    "enforcement_margin": 0.1,
+    "direction_cosine_std_ref": 0.001,
+    "initial_position_std_m": 4.0,
+    "initial_velocity_std_mps": 0.5,
+    "process_acceleration_std_mps2": 0.2
+  },
+  "mission": {
+    "duration_s": 24.0,
+    "slots": 48,
+    "q_initial_m": [
+      50.0,
+      300.0,
+      80.0
+    ],
+    "q_final_m": [
+      550.0,
+      300.0,
+      80.0
+    ],
+    "v_initial_mps": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "v_final_mps": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "users_m": [
+      [
+        120.0,
+        100.0,
+        0.0
+      ],
+      [
+        480.0,
+        100.0,
+        0.0
+      ],
+      [
+        100.0,
+        500.0,
+        0.0
+      ],
+      [
+        500.0,
+        500.0,
+        0.0
+      ]
+    ],
+    "targets_initial": [
+      [
+        180.0,
+        420.0,
+        6.0,
+        -3.0
+      ],
+      [
+        450.0,
+        180.0,
+        -5.0,
+        4.0
+      ]
+    ]
+  },
+  "solver": {
+    "solver": "SCS",
+    "solver_eps": 1e-07,
+    "solver_max_iters": 200000,
+    "outer_iterations": 4,
+    "trajectory_updates": true,
+    "trajectory_control_segments": 6,
+    "trajectory_powell_maxiter": 35,
+    "rank_refinement": true,
+    "out_of_sample_count": 10000,
+    "channel_audit_samples": 2000,
+    "random_seed": 2026,
+    "trajectory_method": "SLSQP",
+    "trajectory_backtracking_factors": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625
+    ],
+    "trajectory_feasibility_tolerance": 1e-06,
+    "energy_acceptance_tolerance_j": 1e-06,
+    "rank_tolerance": 0.0001,
+    "rank_targets": [
+      0.9,
+      0.99,
+      0.999,
+      0.9999,
+      0.99999
+    ],
+    "rank_one_recovery": true,
+    "pcrb_residual_tol_m2": 0.001,
+    "fallback_solver": "CLARABEL",
+    "psd_tolerance": 1e-06,
+    "fallback_on_inaccurate": true,
+    "max_final_inaccurate_fraction": 0.25,
+    "trajectory_activation_min_displacement_m": 1.0,
+    "trajectory_activation_min_energy_gain_j": 1.0,
+    "trajectory_multistart": 3,
+    "trajectory_probe_scale": 0.25,
+    "trajectory_smooth_weight": 0.1,
+    "feasibility_restoration_enabled": true,
+    "feasibility_restoration_segments": 3,
+    "feasibility_restoration_maxiter": 15,
+    "feasibility_restoration_multistart": 3,
+    "feasibility_restoration_ratio_tolerance": 0.001,
+    "feasibility_restoration_smooth_weight": 0.001,
+    "feasibility_restoration_attraction_strengths": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "resume_enabled": true,
+    "skip_completed": true,
+    "rerun_failed": false
+  },
+  "scheme": {
+    "name": "proposed",
+    "robust_communication": true,
+    "chance_sensing": true,
+    "fixed_trajectory": false,
+    "sensing_mode": "optimized"
+  }
+}

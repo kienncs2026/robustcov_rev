@@ -1,0 +1,7 @@
+{
+  "source_root": "outputs_cp6_v2",
+  "source_run": "outputs_cp6_v2/sweep_S3/runs/S3_proposed_seed2026_topo0__cfgfa5a459b4d7f",
+  "config_fingerprint": "fa5a459b4d7fa1f99a23bf08270f750c7d678c24b04101ef0a0d44888dd08921",
+  "classification_at_import": "FEASIBLE",
+  "policy": "Only traceable non-numerical-unresolved runs are reused. Optimization variables are unchanged."
+}

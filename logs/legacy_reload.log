@@ -1,0 +1,24 @@
+[LEGACY S5B 1/10] S5B_cp7_fixed_hover_pcrb9_seed2026_topo0__cfgccebb873df8d
+[LEGACY S5B 2/10] S5B_cp7_mobile_pcrb9_seed2026_topo0__cfg698d1063ce49
+[LEGACY S5B 3/10] S5B_cp7_fixed_hover_pcrb8_seed2026_topo0__cfga178d0bff221
+[LEGACY S5B 4/10] S5B_cp7_mobile_pcrb8_seed2026_topo0__cfgbc6da041423c
+[LEGACY S5B 5/10] S5B_cp7_fixed_hover_pcrb7_seed2026_topo0__cfgc076e30edc76
+[LEGACY S5B 6/10] S5B_cp7_mobile_pcrb7_seed2026_topo0__cfg8dd5cbadbf0e
+[LEGACY S5B 7/10] S5B_cp7_fixed_hover_pcrb6_seed2026_topo0__cfge46136a8b0cb
+[LEGACY S5B 8/10] S5B_cp7_mobile_pcrb6_seed2026_topo0__cfg55631c744d0a
+[LEGACY S5B 9/10] S5B_cp7_fixed_hover_pcrb5_seed2026_topo0__cfg056b3c8244f3
+[LEGACY S5B 10/10] S5B_cp7_mobile_pcrb5_seed2026_topo0__cfg4b48068d5774
+[LEGACY S9R 1/8] S9R_cp7_proposed_seed2026_topo11000__cfg40de171e4e69
+[LEGACY S9R 2/8] S9R_cp7_adapted_deterministic_joint_seed2026_topo11000__cfgdae1921d25e1
+[LEGACY S9R 3/8] S9R_cp7_adapted_trajectory_fixed_sensing20_seed2026_topo11000__cfg65c029be7e2b
+[LEGACY S9R 4/8] S9R_cp7_adapted_robust_fixed_geometry_seed2026_topo11000__cfga0e58758f315
+[LEGACY S9R 5/8] S9R_cp7_proposed_seed2026_topo11001__cfg177079717113
+[LEGACY S9R 6/8] S9R_cp7_adapted_deterministic_joint_seed2026_topo11001__cfgc7ce59b83fdf
+[LEGACY S9R 7/8] S9R_cp7_adapted_trajectory_fixed_sensing20_seed2026_topo11001__cfgde07274581e9
+[LEGACY S9R 8/8] S9R_cp7_adapted_robust_fixed_geometry_seed2026_topo11001__cfg73027e0687a2
+aggregate=results\legacy\outputs_cp6_lock\sweep_S2\aggregate.csv
+aggregate=results\legacy\outputs_cp6_lock\sweep_S3\aggregate.csv
+aggregate=results\legacy\outputs_cp6_lock\sweep_S4\aggregate.csv
+aggregate=results\legacy\outputs_cp6_lock\sweep_S5A\aggregate.csv
+aggregate=results\legacy\outputs_cp7_postlock\sweep_S5B\aggregate.csv
+aggregate=results\legacy\outputs_cp7_s9r\sweep_S9R\aggregate.csv

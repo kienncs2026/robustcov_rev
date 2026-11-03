@@ -1,0 +1,14 @@
+{
+  "status": "LOCKED",
+  "locked_at_utc": "2026-09-03T10:50:38.621003+00:00",
+  "source_output": "outputs_cp6_lock",
+  "scientific_rule": "Do not change physical/mission/solver thresholds after this lock. Any change must use a new output root and be reported as a separate experiment.",
+  "paper_csvs": [
+    "paper_s2_csi.csv",
+    "paper_s3_uncertainty_risk.csv",
+    "paper_s4_rate_pcrb.csv",
+    "paper_s5a_trajectory.csv",
+    "PAPER_LOCK_RUNS.csv",
+    "PAPER_LOCK_SHA256.csv"
+  ]
+}

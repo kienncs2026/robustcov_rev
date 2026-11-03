@@ -1,0 +1,5 @@
+offset_m,proposed_feasible,fixed_feasible,max_displacement_m,energy_gain_j,pair_pass
+180,True,True,0.0,0.0,False
+210,True,True,5.600000000000136,29.021698089789425,True
+240,True,True,5.600000000000136,29.110055869015923,True
+260,True,True,5.600000000000136,29.18691473598301,True

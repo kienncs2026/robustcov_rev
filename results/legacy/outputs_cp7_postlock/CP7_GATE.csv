@@ -1,0 +1,2 @@
+checkpoint,S9_expected,S9_resolved,S9_manifest_complete,S9_numerical_failures,S9_unresolved_failures,S5B_expected,S5B_resolved,S5B_manifest_complete,S5B_numerical_failures,S5B_unresolved_failures,S5B_mobility_rescue_count,mobility_interpretation,ready_for_reporting
+CP7_POSTLOCK,12,12,True,0,0,10,10,True,0,0,0,NO_FEASIBILITY_RESCUE_OBSERVED; TREAT_MOBILITY_AS_SECONDARY_CONTROL,True

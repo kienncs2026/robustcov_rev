@@ -1,0 +1,5 @@
+outer_iteration,solve_label,slot,status,power_w,runtime_s,rank_residual,max_comm_slack,max_sensing_slack,solver_iterations,pcrb_residual_m2,solver_used,min_w_eigenvalue,min_s_eigenvalue,psd_ok,total_solver_runtime_s,solver_call_count,fallback_call_count,rank_refinement_call_count,rank_recovery_call_count
+0,current,0,optimal_inaccurate,0.920004175234897,116.06341650000104,2.9586614486174875e-06,0.0,0.0,22,4.94332486056237e-08,CLARABEL,-6.606644015780797e-10,-6.342765474532423e-10,True,116.06341650000104,1,0,0,0
+0,current,1,error:SolverError,inf,16.77464659999896,inf,inf,inf,0,,,,,False,16.77464659999896,1,0,0,0
+0,slack_diagnostic,0,optimal_inaccurate,0.9200037092487332,146.03726499999902,3.18352289472712e-07,0.0,4.2460196611233515e-13,27,-2.389951525572087e-08,CLARABEL,7.355585058285687e-11,7.355260893437649e-11,True,146.03726499999902,1,0,0,0
+0,slack_diagnostic,1,error:SolverError,inf,17.239526000001206,inf,inf,inf,0,,,,,False,17.239526000001206,1,0,0,0

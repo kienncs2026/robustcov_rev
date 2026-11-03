@@ -1,0 +1,42 @@
+{
+  "protocol": "S9R-local-topology-v1",
+  "created_for": "final pre-manuscript local-topology validation",
+  "run_config": "configs/cp7_s9r_strict.json",
+  "base_config_fingerprint": "866d466fe2fa7a764523630b93bb6b43e6635bce7e32c1abf1bf08f458f5b8a0",
+  "output_root": "outputs_cp7_s9r",
+  "expected_runs": 8,
+  "topology_seeds": [
+    11000,
+    11001
+  ],
+  "perturbation_distribution": "iid uniform[-25,25] m in XY",
+  "perturbed_entities": "all users and target initial XY only",
+  "unchanged": "UAV endpoints; target velocities; z coordinates; CSI/PCRB requirements; solver tolerances; MC seed",
+  "redraw_allowed": false,
+  "resume_enabled": true,
+  "skip_completed": true,
+  "cp7_reference": {
+    "validated": true,
+    "root": "outputs_cp7_postlock",
+    "gate_path": "outputs_cp7_postlock/CP7_GATE.csv",
+    "s9_aggregate": "outputs_cp7_postlock/sweep_S9/aggregate.csv",
+    "gate": {
+      "checkpoint": "CP7_POSTLOCK",
+      "S9_expected": 12,
+      "S9_resolved": 12,
+      "S9_manifest_complete": true,
+      "S9_numerical_failures": 0,
+      "S9_unresolved_failures": 0,
+      "S5B_expected": 10,
+      "S5B_resolved": 10,
+      "S5B_manifest_complete": true,
+      "S5B_numerical_failures": 0,
+      "S5B_unresolved_failures": 0,
+      "S5B_mobility_rescue_count": 0,
+      "mobility_interpretation": "NO_FEASIBILITY_RESCUE_OBSERVED; TREAT_MOBILITY_AS_SECONDARY_CONTROL",
+      "ready_for_reporting": true
+    },
+    "t0_rows": 4
+  },
+  "interpretation": "T3/T4 are pre-registered bounded perturbations around T0. They support local cross-topology robustness only; they do not establish distribution-level generalization."
+}

@@ -1,0 +1,7 @@
+{
+  "experiment": "R2",
+  "title": "Trajectory baselines and search strategies",
+  "reviewer_refs": "R1.7, R2.5, R3.3, Ed.3",
+  "notes": "Proposed SLSQP and fixed trajectories come from LEGACY S9/S5B.",
+  "options": {}
+}

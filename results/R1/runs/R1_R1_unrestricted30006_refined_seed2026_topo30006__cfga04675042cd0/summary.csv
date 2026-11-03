@@ -1,0 +1,2 @@
+status,reason,failure_code,restoration_status,restoration_runtime_s,restoration_candidates_tested,restoration_iterations,initial_feasibility_bound_ratio,final_feasibility_bound_ratio,feasibility_bound_pass,worst_sensing_bound_ratio,worst_communication_bound_ratio
+failed,Phase F0 could not remove the fixed-geometry necessary-condition violation; worst ratio=1.26677.,INFEASIBLE_FIXED_GEOMETRY_SENSING,slsqp:Optimization terminated successfully,49.920063800003845,2,31,1.2667832713965033,1.2667658613365782,False,1.2667658613365782,0.04974213169827172

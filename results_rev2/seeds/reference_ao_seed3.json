@@ -1,0 +1,19 @@
+{
+  "mission": "reference",
+  "design": "ao_from_straight_seed",
+  "seed_index": 3,
+  "random_seed": 2029,
+  "success": true,
+  "reason": "",
+  "wall_s": 764.4,
+  "run_dir": "/home/sudo_user/kiennt/robustcov_rev/results_rev2/seeds/runs/S9R_rev2_reference_ao_seed3_seed2029_topo0__cfga216b43494ed",
+  "total_j": 25050.294697117333,
+  "propulsion_j": 25024.588896253597,
+  "rf_j": 25.70580086373681,
+  "max_random_channel_outage": 0.0,
+  "max_pcrb_ucb_95": 0.007984715273537665,
+  "min_worst_case_sinr_margin": 0.10801074431900659,
+  "max_rank_residual": 4.36251958866841e-07,
+  "accepted": true,
+  "max_displacement_m": 0.0
+}

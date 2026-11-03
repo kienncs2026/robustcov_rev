@@ -1,0 +1,39 @@
+{
+  "cp7_version": "postlock-v1",
+  "run_config": "configs/cp7_postlock_strict.json",
+  "base_config_fingerprint": "b420e783f221d33dd88abb94651c9f1b367b64d995bbce09270f15d52e9b9bf2",
+  "output_root": "outputs_cp7_postlock",
+  "experiments": [
+    "S9",
+    "S5B"
+  ],
+  "expected_counts": {
+    "S9": 12,
+    "S5B": 10
+  },
+  "total_configs": 22,
+  "resume_enabled": true,
+  "skip_completed": true,
+  "rerun_numerical": false,
+  "rerun_scientific": false,
+  "cp6_lock": {
+    "validated": true,
+    "path": "outputs_cp6_lock/CP6_LOCK_GATE.csv",
+    "gate": {
+      "checkpoint": "CP6_LOCK",
+      "s2_locked": true,
+      "s3_locked": true,
+      "s4_locked": true,
+      "s5a_all_feasible": true,
+      "s5a_passing_pairs": 3,
+      "validation_failures": 0,
+      "ready_for_manuscript": true
+    }
+  },
+  "protocol_notes": [
+    "CP6 locked outputs are read-only and are never written by this runner.",
+    "S9 topology seeds and all method mechanisms are frozen before execution.",
+    "S5B uses the already-locked S5A y260 geometry and a pre-registered PCRB grid 9,8,7,6,5 m^2.",
+    "Adapted literature baselines reproduce design mechanisms, not the original papers' complete objectives."
+  ]
+}

@@ -1,0 +1,83 @@
+2026-10-29 23:41:50 START 71 runs, 16 workers: R6=8, R5=3, R1=60
+Traceback (most recent call last):
+  File "/home/sudo_user/kiennt/robustcov_rev/tools/run_queue.py", line 132, in <module>
+    main()
+  File "/home/sudo_user/kiennt/robustcov_rev/tools/run_queue.py", line 112, in main
+    with ProcessPoolExecutor(max_workers=args.workers, mp_context=ctx, max_tasks_per_child=1) as pool:
+TypeError: ProcessPoolExecutor.__init__() got an unexpected keyword argument 'max_tasks_per_child'
+2026-10-29 23:43:25 START 71 runs, 16 workers: R6=8, R5=3, R1=60
+2026-10-29 23:43:26 [1/71] R5:robust_fixed_sensing20 OK wall=0.00h
+2026-10-29 23:43:26 [2/71] R1:local20001_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [3/71] R1:local20001_refined OK wall=0.00h
+2026-10-29 23:43:26 [4/71] R1:local20000_refined OK wall=0.00h
+2026-10-29 23:43:26 [5/71] R6:local1_scenario OK wall=0.00h
+2026-10-29 23:43:26 [6/71] R6:local2_refined OK wall=0.00h
+2026-10-29 23:43:26 [7/71] R6:local2_scenario OK wall=0.00h
+2026-10-29 23:43:26 [8/71] R5:robust_fixed_sensing10 OK wall=0.00h
+2026-10-29 23:43:26 [9/71] R1:local20002_refined OK wall=0.00h
+2026-10-29 23:43:26 [10/71] R6:reference_scenario OK wall=0.00h
+2026-10-29 23:43:26 [11/71] R6:local1_refined OK wall=0.00h
+2026-10-29 23:43:26 [12/71] R6:reference_refined OK wall=0.00h
+2026-10-29 23:43:26 [13/71] R1:local20002_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [14/71] R1:local20003_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [15/71] R1:local20000_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [16/71] R1:local20003_refined OK wall=0.00h
+2026-10-29 23:43:26 [17/71] R1:local20004_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [18/71] R1:local20005_refined OK wall=0.00h
+2026-10-29 23:43:26 [19/71] R1:local20004_refined OK wall=0.00h
+2026-10-29 23:43:26 [20/71] R1:local20005_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [21/71] R1:local20006_refined OK wall=0.00h
+2026-10-29 23:43:26 [22/71] R1:local20006_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [23/71] R1:local20008_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [24/71] R1:local20007_refined OK wall=0.00h
+2026-10-29 23:43:26 [25/71] R1:local20008_refined OK wall=0.00h
+2026-10-29 23:43:26 [26/71] R1:local20009_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [27/71] R1:local20009_refined OK wall=0.00h
+2026-10-29 23:43:26 [28/71] R1:local20010_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [29/71] R1:local20010_refined OK wall=0.00h
+2026-10-29 23:43:26 [30/71] R1:local20011_refined OK wall=0.00h
+2026-10-29 23:43:26 [31/71] R1:local20012_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [32/71] R1:local20011_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [33/71] R1:local20012_refined OK wall=0.00h
+2026-10-29 23:43:26 [34/71] R1:local20013_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [35/71] R1:local20013_refined OK wall=0.00h
+2026-10-29 23:43:26 [36/71] R1:local20014_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [37/71] R1:local20014_refined OK wall=0.00h
+2026-10-29 23:43:26 [38/71] R1:local20015_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [39/71] R1:local20015_refined OK wall=0.00h
+2026-10-29 23:43:26 [40/71] R1:local20016_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [41/71] R1:local20016_refined OK wall=0.00h
+2026-10-29 23:43:26 [42/71] R1:local20017_refined OK wall=0.00h
+2026-10-29 23:43:26 [43/71] R1:local20017_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [44/71] R1:local20018_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [45/71] R1:local20019_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [46/71] R1:local20019_refined OK wall=0.00h
+2026-10-29 23:43:26 [47/71] R1:local20018_refined OK wall=0.00h
+2026-10-29 23:43:26 [48/71] R1:unrestricted30001_nine_state FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-29 23:43:26 [49/71] R1:unrestricted30001_refined FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-29 23:43:26 [50/71] R1:unrestricted30002_nine_state OK wall=0.00h
+2026-10-29 23:43:26 [51/71] R1:unrestricted30002_refined OK wall=0.00h
+2026-10-29 23:43:26 [52/71] R1:unrestricted30006_refined FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-29 23:43:26 [53/71] R1:unrestricted30006_nine_state FAILED INFEASIBLE_FIXED_GEOMETRY_SENSING wall=0.00h
+2026-10-29 23:57:54 [54/71] R1:unrestricted30007_refined OK wall=0.24h
+2026-10-30 00:03:28 [55/71] R1:unrestricted30008_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.33h
+2026-10-30 00:06:43 [56/71] R1:unrestricted30004_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.39h
+2026-10-30 00:16:23 [57/71] R1:unrestricted30003_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.55h
+2026-10-30 00:35:28 [58/71] R6:s3corner_scenario OK wall=0.87h
+2026-10-30 00:40:12 [59/71] R1:unrestricted30004_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.95h
+2026-10-30 00:41:16 [60/71] R1:unrestricted30007_nine_state OK wall=0.96h
+2026-10-30 00:42:12 [61/71] R1:unrestricted30008_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=0.98h
+2026-10-30 00:48:35 [62/71] R1:unrestricted30003_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=1.09h
+2026-10-30 01:22:55 [63/71] R6:s3corner_refined OK wall=1.66h
+2026-10-30 01:22:55 COLLECT R6 -> /home/sudo_user/kiennt/robustcov_rev/results/R6/aggregate.csv
+2026-10-30 01:23:50 [64/71] R5:robust_fixed_sensing30 FAILED PSD_VIOLATION wall=1.67h
+2026-10-30 01:23:50 COLLECT R5 -> /home/sudo_user/kiennt/robustcov_rev/results/R5/aggregate.csv
+2026-10-30 01:31:18 [65/71] R1:unrestricted30005_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=1.80h
+2026-10-30 02:13:41 [66/71] R1:local20007_nine_state OK wall=2.50h
+2026-10-30 02:17:30 [67/71] R1:unrestricted30009_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=2.23h
+2026-10-30 04:16:14 [68/71] R1:unrestricted30000_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=4.55h
+2026-10-30 04:30:19 [69/71] R1:unrestricted30005_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=4.78h
+2026-10-30 04:34:31 [70/71] R1:unrestricted30009_nine_state FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=4.61h
+2026-10-30 05:24:45 [71/71] R1:unrestricted30000_refined FAILED INFEASIBLE_ACTIVE_CONSTRAINTS wall=5.69h
+2026-10-30 05:24:45 COLLECT R1 -> /home/sudo_user/kiennt/robustcov_rev/results/R1/aggregate.csv
+2026-10-30 05:24:46 ALL DONE
